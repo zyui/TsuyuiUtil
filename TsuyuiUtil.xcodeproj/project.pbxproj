@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		03FED6BF2237FE15007728B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03FED6BE2237FE15007728B7 /* main.cpp */; };
+		03FF0371223959ED00DFF461 /* VectorUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03FF036F223959ED00DFF461 /* VectorUtil.cpp */; };
+		03FF037422395A8A00DFF461 /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03FF037222395A8A00DFF461 /* StringUtil.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		03FED6BB2237FE15007728B7 /* TsuyuiUtil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TsuyuiUtil; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FED6BE2237FE15007728B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		03FF036F223959ED00DFF461 /* VectorUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorUtil.cpp; sourceTree = "<group>"; };
+		03FF0370223959ED00DFF461 /* VectorUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorUtil.hpp; sourceTree = "<group>"; };
+		03FF037222395A8A00DFF461 /* StringUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtil.cpp; sourceTree = "<group>"; };
+		03FF037322395A8A00DFF461 /* StringUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringUtil.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				03FED6BE2237FE15007728B7 /* main.cpp */,
+				03FF036F223959ED00DFF461 /* VectorUtil.cpp */,
+				03FF0370223959ED00DFF461 /* VectorUtil.hpp */,
+				03FF037222395A8A00DFF461 /* StringUtil.cpp */,
+				03FF037322395A8A00DFF461 /* StringUtil.hpp */,
 			);
 			path = TsuyuiUtil;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FF037422395A8A00DFF461 /* StringUtil.cpp in Sources */,
+				03FF0371223959ED00DFF461 /* VectorUtil.cpp in Sources */,
 				03FED6BF2237FE15007728B7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

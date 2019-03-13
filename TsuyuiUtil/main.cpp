@@ -7,9 +7,21 @@
 //
 
 #include <iostream>
+#include <stdio.h>
+#include <string>
+#include <vector>
+#include "StringUtil.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::string s ="Hello, World! My name is Tsuyui";
+    std::cout << s << std::endl;
+
+    std::vector<std::string> segs;
+    TsuyuiUtil::split(s, " ", segs);
+    
+    for(size_t i = 0; i < segs.size();i++){
+        std::cout << segs[i] << std::endl;
+    }
+    
     return 0;
 }
